@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('conten-type', 'text/plain');
   // res.write('hello');
   // res.end();
-  let path = './FrontEndFiles';
+  let path = '../frontEndFiles';
   switch (req.url) {
     case '/':
       path += '/index.html';
